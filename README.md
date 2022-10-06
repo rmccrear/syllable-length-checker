@@ -5,9 +5,9 @@ The purpose of this project is to create a simple library for Javascript to chec
 For example:
 
     const {enSyllableChecker} = require("syllable-checker")
-    console.log(enSyllableChecker.check("Hello"));
+    console.log(enSyllableChecker("Hello"));
     // 2
-    console.log(enSyllableChecker.check("adequately"));
+    console.log(enSyllableChecker("adequately"));
     // 4
 
 Inspiration for this project comes from [http://delphiforfun.org/programs/WordStuff1.htm](http://delphiforfun.org/programs/WordStuff1.htm)
